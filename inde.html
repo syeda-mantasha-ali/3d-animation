@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Princess Doll Cards.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Princess</h2>
+            <a href="#" class="buy">Buy Now</a>
+            <img src="cartoon.png" class="product" height="300">
+        </div>
+
+        <div class="box">
+            <h2 class="name">Princess</h2>
+            <a href="#" class="buy">Buy Now</a>
+            <img src="cartoon-princess-.png" class="product">
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.5
+        });
+    </script>
+</body>
+
+</html>
